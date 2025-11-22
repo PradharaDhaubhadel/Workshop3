@@ -16,12 +16,7 @@ public class GradeEvaluator
         int Grade = grade.nextInt();
         grade.nextLine();
         
-        if( Grade >= 40){
-            System.out.println("The grade you have got is:\nPass!");
-        }
-        else{
-            System.out.println("The grade you have got is:\nFail");
-        }
-        
+        String isgrade =( Grade >= 40)? "The grade you have got is:\n Pass" : "The grade you have got is:\n Fail";
+        System.out.println(isgrade);
     }
 }

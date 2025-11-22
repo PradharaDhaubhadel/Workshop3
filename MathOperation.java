@@ -55,20 +55,22 @@ public class MathOperation
         
         
         //Logical Operator
-        int age = 19;
-         System.out.println("Age is:"+age);
-         String isAge =( age >= 18)? "Eligible to Drink" : "YOU are NOT eligible to drink";
-         System.out.println(isAge);
+        int x = 2;
+        int y = 4;
+        String smallest = (x<y) && (x % 2 == 0) ? "The smallest and even number among the two numbers is " +x : "The smallest and even number among the two numbers is " +y; 
+        System.out.println(smallest);
         
+    
         //Ternary Operator
+        int age = 19;
+        System.out.println("Age is:"+age);
+        String isAge =( age >= 18)? "Eligible to Drink" : "YOU are NOT eligible to drink";
+        System.out.println(isAge);
+         
         int gr = 6;
         int sm = 3;
-        if ( gr > sm ){
-            System.out.println("The greater number is:" + gr);
-        }
-        else{
-            System.out.println("The greater number is:" + sm);
-        }
+        String greater = (gr>sm)? "The greater number is:" + gr: "The greater number is:"+ sm;
+        System.out.println(greater);
     
     }
 }
