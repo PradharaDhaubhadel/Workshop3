@@ -52,27 +52,6 @@ public class RickshawFare
     
         System.out.println("SAFE TRAVELS!!\nTHANK YOU FOR VISITING US!!");
         System.out.println(".............................................");
-        
-        
-        
-       
-        
-        
-        
-        
-        
-        
-         
-        
-         
-        
-    
-    
-    
-    
-    
-    
-    
-    
+            
     }
 }
