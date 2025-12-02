@@ -15,8 +15,8 @@ System.out.println(++a );
 System.out.println(a++);
 
 int h=1;
-int j= ++h; // h=2 j=2
-int k= h++; //h=3 k=2
+int j= ++h; // h=2 j=2 new increamented value
+int k= h++; //h=3 k=2 old original value
 System.out.println(h+j+k);
 
 }
